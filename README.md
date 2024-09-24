@@ -38,3 +38,10 @@ This project is a basic e-commerce platform built with **HTML**, **CSS**, and **
 
    ```bash
    git clone https://github.com/ig-vikas/GDSC-assignment.git
+
+the below pictures will discribe about my project
+![Screenshot (46)](https://github.com/user-attachments/assets/aeb0a877-d3b6-4665-b49a-986dc2aa7ea6)
+![image](https://github.com/user-attachments/assets/1ac4544a-4572-4596-bb6e-38fe7ac874ac)
+![image](https://github.com/user-attachments/assets/309db924-cdbf-4390-8e00-c5e5cec3cc22)
+![image](https://github.com/user-attachments/assets/37982623-be24-48c3-8933-c5f50886a935)
+
