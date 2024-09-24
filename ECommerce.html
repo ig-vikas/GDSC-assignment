@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>E-Commerce Platform</h1>
+            <input type="text" id="search-input" placeholder="Search for products..." />
+        </header>
+        
+
+<section class="filter-section">
+    <h2>Filter by Category</h2>
+    <select id="category-filter">
+        <option value="">All Categories</option>
+    </select>
+</section>
+
+
+
+        <section class="product-list" id="product-list">
+        </section>
+
+         <h2>Cart</h2>
+        <section id="cart-section" class="cart-section" >
+            <div class="cart-items" id="cart-items">
+            </div>
+
+            <div class="price-details" id="price-details">
+                <h2>Price Details</h2>
+                <p>Total MRP: ₹<span id="total-mrp">0</span></p>
+                <p>Coupon Discount: ₹<span id="coupon-discount">50</span></p>
+                <p>Platform Fee: ₹<span id="platform-fee">10</span></p>
+                <p>Shipping Charges: ₹<span id="shipping-charges">20</span></p>
+                <h3>Total Amount: ₹<span id="total-amount">0</span></h3>
+                <button class="place-order" id="place-order" onclick="placeOrder()">Place Order</button>
+                <div id="order-message"></div>
+            </div>
+            
+            
+        </section>
+    </div>
+
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="item-title"></h2>
+            <p id="item-description"></p>
+            <p>Category: <span id="item-category"></span></p>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
